@@ -1,6 +1,6 @@
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -66,4 +66,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#customNav {
+    background-color: #a2b9bc;
 }
