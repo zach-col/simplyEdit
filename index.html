@@ -11,14 +11,13 @@
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="#home" onclick="closeNav()">Home</a>
+    <a href="#services" onclick="closeNav()">Services</a>
+    <a href="#aboutMe" onclick="closeNav()">About Me</a>
   </div>
 </div>
 
-<div class="container-fluid" id="customNav">
+<div class="container-fluid" id="customNav" id="home">
   <div>
     <!-- navbar button -->
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
@@ -38,7 +37,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="services">
   <!-- header -->
   <h1 id="headerInfo">Creating your vision.</h1>
 
@@ -75,7 +74,7 @@
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" id="aboutMe">
   <!-- extra space -->
   <div class="spacing"></div>
   <!-- profile image -->
